@@ -1,0 +1,1 @@
+var contextCards = angular.module('contextCards', []);
