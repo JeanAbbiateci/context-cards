@@ -1,4 +1,4 @@
-contextCards.config(function($routeProvider) {
+/*contextCards.config(function($routeProvider) {
     $routeProvider
     
     .when('/', {
@@ -10,4 +10,4 @@ contextCards.config(function($routeProvider) {
         templateUrl: 'content-list.html',
         controller: 'stacks'
     });
-});
+});*/
