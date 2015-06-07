@@ -1,46 +1,55 @@
 {
-    "cards":[
+    "decks":[
         {
+            "id": 1,
             "title": "Where does Austin’s energy come from?",
-            "questions": [
+            "cards": [
                 {
-                    "question": "Who is the main electrical provider in Austin?",
-                    "answer": "Austin Energy is the sole electrical provider in Austin. Every Austin resident must get their energy from Austin Energy."
+                    "id": 1,
+                    "q": "Who is the main electrical provider in Austin?",
+                    "a": "Austin Energy is the sole electrical provider in Austin. Every Austin resident must get their energy from Austin Energy."
                 },
 
                 {
-                    "question": "How much of Austin’s energy comes from renewable sources?",
-                    "answer": "21%; that includes both wind and solar."
+                    "id": 2,
+                    "q": "How much of Austin’s energy comes from renewable sources?",
+                    "a": "21%; that includes both wind and solar."
                 },
 
                 {
-                    "question": "How much of Austin’s energy comes from fossil fuels?",
-                    "answer": "Approximately 42%. That includes coal and natural gas. But, Austin has plans to retire it’s only coal plant by 2022."
+                    "id": 3,
+                    "q": "How much of Austin’s energy comes from fossil fuels?",
+                    "a": "Approximately 42%. That includes coal and natural gas. But, Austin has plans to retire it’s only coal plant by 2022."
                 },
 
                 {
-                    "question": "Where does the rest of Austin’s energy come from?",
-                    "answer": "23% comes from nuclear. Austin Energy owns a stake in the South Texas Nuclear Project. The rest of Austin’s energy comes from general power purchases on the grid."
+                    "id": 4,
+                    "q": "Where does the rest of Austin’s energy come from?",
+                    "a": "23% comes from nuclear. Austin Energy owns a stake in the South Texas Nuclear Project. The rest of Austin’s energy comes from general power purchases on the grid."
                 },
 
                 {
-                    "question": "What are Austin’s long term energy goals?",
-                    "answer": "Austin Energy homes to be a carbon neutral utility by 2050 or earlier if possible. Right now they are bidding out a project to built 600 megawatts of solar in west Texas."
+                    "id": 5,
+                    "q": "What are Austin’s long term energy goals?",
+                    "a": "Austin Energy homes to be a carbon neutral utility by 2050 or earlier if possible. Right now they are bidding out a project to built 600 megawatts of solar in west Texas."
                 }
             ]
         },
         
         {
+            "id": 2,
             "title": "How does Austin’s local government work?",
-            "questions": [
+            "cards": [
                 {
-                    "question": "What is Austin’s local system of government?",
-                    "answer": "Austin has a weak mayor, strong council system. We have 1 Mayor and 10 city council members. They serve 4 year terms."
+                    "id": 1,
+                    "q": "What is Austin’s local system of government?",
+                    "a": "Austin has a weak mayor, strong council system. We have 1 Mayor and 10 city council members. They serve 4 year terms."
                 },
                 
                 {
-                    "question": "How are they elected?",
-                    "answer": "Each city council member represents a geographic district in the city. There are 10 districts, each with equal population numbers. Each city council member is elected only by residents of their district. Only the mayor is elected by everyone in the city."
+                    "id": 2,
+                    "q": "How are they elected?",
+                    "a": "Each city council member represents a geographic district in the city. There are 10 districts, each with equal population numbers. Each city council member is elected only by residents of their district. Only the mayor is elected by everyone in the city."
                 }
             ]
         }

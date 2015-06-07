@@ -1,1 +1,1 @@
-var contextCards = angular.module('contextCards', []);
+var contextCards = angular.module('contextCards', ['ngRoute']);

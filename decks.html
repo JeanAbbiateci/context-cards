@@ -1,0 +1,8 @@
+<div class="row">
+    <div class="col-sm-6 col-md-4 stack" ng-repeat="deck in decks">
+        <div class="stack--container" ng-click="openDeck(deck.id)">
+            <h1 class="stack--title">{{ deck.title }}</h1>
+            <div class="stack--counter">{{ deck.cards.length }} cards</div>
+        </div>
+    </div>
+</div>

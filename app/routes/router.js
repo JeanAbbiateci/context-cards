@@ -1,13 +1,20 @@
-/*contextCards.config(function($routeProvider) {
+contextCards.config(function($routeProvider) {
     $routeProvider
     
     .when('/', {
-        templateUrl: 'cards.html',
-        controller: 'stacks'
+        templateUrl: 'decks.html',
+        controller: 'decks'
     })
     
-    .when('/content', {
-        templateUrl: 'content-list.html',
-        controller: 'stacks'
-    });
-});*/
+    .when('/deck/:id', {
+        templateUrl: 'deck.html',
+        controller: 'decks'
+    })
+    
+    .when('/card', {
+        templateUrl: 'card.html',
+        controller: 'decks'
+    })
+    
+    .otherwise({ redirectTo: '/'});
+});

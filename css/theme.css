@@ -88,9 +88,14 @@ body {
   border-top: 1px solid rgba(255, 255, 255, 0.6);
 }
 .content--item {
+  display: block;
   padding: .8em .3em;
   border-bottom: 1px solid rgba(255, 255, 255, 0.6);
-  cursor: pointer;
+  color: #FFF;
+}
+.content--item:hover {
+  color: #FFF;
+  text-decoration: none;
 }
 .content--item:hover {
   background-color: #72bebf;

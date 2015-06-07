@@ -1,0 +1,8 @@
+<div class="content card">
+    <h1>{{ deck.title }}</h1>
+    <ul class="col-md-4 content--list">
+        <li data-ng-repeat="card in deck.cards">
+            <a class="content--item" ng-class="openCard(2)">{{ card.q }}</a>
+        </li>
+    </ul>
+</div>
