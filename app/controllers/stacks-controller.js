@@ -18,11 +18,16 @@ contextCards.controller('decks', function ($scope, $http, $routeParams) {
                             $scope.deck = deck;
                             
                             if ($routeParams.cardId) {
-                                deck.cards.forEach(function (card) {
+                                var cardIndex = 0;
+                                deck.cards.forEach(function (card, index) {
                                     if (card.id == $routeParams.cardId) {
                                         $scope.card = card;
+                                        cardIndex = index;
                                     }
                                 });
+                                
+                                $scope.cardPrev = deck.cards[cardIndex-1];
+                                $scope.cardNext = deck.cards[cardIndex+1];
                             }
                         }
                     });

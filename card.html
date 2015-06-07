@@ -20,6 +20,6 @@
             <p>{{ card.a }}</p>
         </div>
         <div class="card--navigation">
-            <a href="#" class="col-xs-6 pull-left">Previous</a>
-            <a href="#" class="col-xs-6 pull-right text-right">Next</a>
+            <a ng-href="#/deck/{{ deck.id }}/{{ cardPrev.id }}" class="col-xs-6 pull-left">Previous</a>
+            <a ng-href="#/deck/{{ deck.id }}/{{ cardNext.id }}" class="col-xs-6 pull-right text-right">Next</a>
         </div>
