@@ -6,12 +6,12 @@ contextCards.config(function($routeProvider) {
         controller: 'decks'
     })
     
-    .when('/deck/:id', {
+    .when('/deck/:deckId', {
         templateUrl: 'deck.html',
         controller: 'decks'
     })
     
-    .when('/card', {
+    .when('/deck/:deckId/:cardId', {
         templateUrl: 'card.html',
         controller: 'decks'
     })
