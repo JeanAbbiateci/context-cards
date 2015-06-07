@@ -22,6 +22,14 @@ body {
   background-color: #8abf6f;
   color: #FFF;
 }
+.logo {
+  color: #FFF;
+}
+.logo:hover,
+.logo:active {
+  color: #FFF;
+  text-decoration: none;
+}
 /* ========= MODULES ========= */
 /* ====== STACKS ====== */
 .stack--container {
@@ -107,6 +115,7 @@ body {
 .card--topic {
   font-size: 1.6em;
   line-height: 1.4em;
+  color: #FFF;
 }
 .card--container {
   padding: .7em;
@@ -121,15 +130,15 @@ body {
 }
 .card--navigation {
   overflow: hidden;
-  padding: .2em .7em;
-  color: #FFF;
-  background-color: #5797a7;
 }
 .card--navigation a {
+  padding: .4em;
+  background-color: #5797a7;
   color: #FFF;
 }
 .card--navigation a:hover,
 .card--navigation a:active {
+  background-color: #3d6a75;
   text-decoration: none;
 }
 /* ====== MENU ====== */

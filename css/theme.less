@@ -37,6 +37,14 @@ body {
     color: #FFF;
 }
 
+.logo {
+    color: #FFF;
+    &:hover, &:active {
+        color: #FFF;
+        text-decoration: none;
+    }
+}
+
 
 /* ========= MODULES ========= */
 /* ====== STACKS ====== */
@@ -146,6 +154,7 @@ body {
 .card--topic {
     font-size: 1.6em;
     line-height: 1.4em;
+    color: #FFF;
 }
 
 .card--container {
@@ -165,15 +174,14 @@ body {
 
 .card--navigation {
     overflow: hidden;
-    padding: .2em .7em;
-    
-    color: #FFF;
-    background-color: @medium-blue;
-    
     a {
+        padding: .4em;
+        
+        background-color: @medium-blue;
         color: #FFF;
         
         &:hover, &:active {
+            background-color: darken(@medium-blue, 15%);
             text-decoration: none;
         }
     }

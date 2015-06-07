@@ -15,11 +15,11 @@
 -->
     
         <h1 class="card--topic">{{ deck.title }}</h1>
+        <div class="card--navigation">
+            <a ng-href="#/deck/{{ deck.id }}/{{ cardPrev.id }}" class="col-xs-6 pull-left"><span class="glyphicon glyphicon-menu-left"></span></a>
+            <a ng-href="#/deck/{{ deck.id }}/{{ cardNext.id }}" class="col-xs-6 pull-right text-right"><span class="glyphicon glyphicon-menu-right"></span></a>
+        </div>
         <div class="card--container">
             <h2 class="card--title">{{ card.q }}</h2>
             <p>{{ card.a }}</p>
-        </div>
-        <div class="card--navigation">
-            <a ng-href="#/deck/{{ deck.id }}/{{ cardPrev.id }}" class="col-xs-6 pull-left">Previous</a>
-            <a ng-href="#/deck/{{ deck.id }}/{{ cardNext.id }}" class="col-xs-6 pull-right text-right">Next</a>
         </div>
